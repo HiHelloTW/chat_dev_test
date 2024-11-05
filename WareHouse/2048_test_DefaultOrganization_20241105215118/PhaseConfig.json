@@ -1,3 +1,18 @@
+// 1. DemandAnalysis（需求分析）
+// 這段的目的是幫助 Chief Product Officer（CPO） 和 Chief Executive Officer（CEO） 協調，決定要使用的「產品模式」（product modality），例如圖像、文檔、Excel、網站等。
+// 討論流程：
+// CPO 和 CEO 討論，僅限於「產品模式」的選擇，禁止討論其他細節。
+// 系統列出了可供選擇的產品類型，如圖像、文檔、PowerPoint、網站、應用程序等。
+// 討論完成後，當雙方達成一致，CPO 或 CEO 需主動結束討論，並僅發送訊息<INFO> 產品模式，例如 <INFO> PowerPoint。
+// 目的是確保雙方對產品形式的選擇一致，確保需求明確。
+
+// 2. Manual（手冊編寫）
+// 這段的目的是協助 Chief Product Officer（CPO） 根據「產品模式」撰寫詳細的 用戶手冊。
+// 流程：
+// 根據需求定義的「任務」（task）、「模式」（modality）、「程式語言」（language）、「想法」（ideas）、「代碼」（codes）和「需求」（requirements），CPO 使用 Markdown 格式編寫一份manual.md檔案。
+// 手冊範例包括：軟體的主要功能介紹、安裝環境依賴的指導、使用方式說明等。
+// 此手冊將指導用戶如何安裝和使用軟件，提供相關背景和功能細節。
+
 {
   "DemandAnalysis": {
     "assistant_role_name": "Chief Product Officer",
